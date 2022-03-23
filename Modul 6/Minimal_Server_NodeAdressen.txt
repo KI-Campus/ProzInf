@@ -1,0 +1,12 @@
+# Verfügbare Daten beim minimal Server Beispiel und ihre Adresse
+
+Beschleunigung_Soll: ns=2;s=Application.PlcProg.aZiel_SSeg
+Geschwindigkeit_Soll: ns=2;s=Application.PlcProg.vZiel_SSeg
+Geschwindigkeit_Ist: ns=2;s=Application.PlcProg.rActualVelocity
+Amplitude: ns=2;s=Application.PlcProg.amplSchwing
+Messzeit: ns=2;s=Application.PlcProg.tMess
+Systemzeit: ns=2;s=Application.PlcProg.sysTimeNs
+Position:  ns=2;s=Application.PlcProg.rActualPosition
+Drehmoment: ns=2;s=Application.PlcProg.rActualTorqueForce
+Motrostrom: ns=2;s=Application.PlcProg.rActualTorqueCurrent
+An_Aus: ns=2;s=Application.PlcProg.bActivateDemo
